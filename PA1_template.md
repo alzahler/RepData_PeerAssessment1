@@ -251,3 +251,4 @@ qplot(interval, steps, data=a2.day, facets = V4 ~ ., geom="line")
 ```
 
 ![plot of chunk unnamed-chunk-14](PA1_template_files/figure-html/unnamed-chunk-14.png) 
+

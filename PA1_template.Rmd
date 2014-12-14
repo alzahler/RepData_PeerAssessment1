@@ -137,5 +137,7 @@ Finally, we make a panel plot containing a time series plot of the 5-minute inte
 ```{r}
 a2.day <- aggregate(steps ~ interval + V4, data = data2, FUN="mean")
 head(a2.day)
+
 qplot(interval, steps, data=a2.day, facets = V4 ~ ., geom="line")
 ```
+
